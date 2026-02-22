@@ -67,6 +67,7 @@
 >
 > The [`<repo-name>`](./github.md#repo-name) is the repo name.
 
+<!-- no toc -->
 - Method 1: [Clone the repo using the `VS Code Terminal`](#clone-the-repo-using-the-vs-code-terminal)
 - Method 2: [Clone the repo using the `Command Palette`](#clone-the-repo-using-the-command-palette)
 
@@ -109,6 +110,7 @@
 
 ## Switch to the `<branch-name>` branch
 
+<!-- no toc -->
 - Method 1: [Switch to the `<branch-name>` branch using the `VS Code Terminal`](#switch-to-the-branch-name-branch-using-the-vs-code-terminal)
 - Method 2: [Switch to the `<branch-name>` branch using `GitLens`](#switch-to-the-branch-name-branch-using-gitlens)
 
@@ -147,11 +149,12 @@ Check whether you have such conflicts:
 
 ## Resolve a merge conflict
 
-Resolve a [merge conflict](./git.md#merge-conflict) using any of the following methods:
+Resolve a [merge conflict](./git.md#merge-conflict).
 
-- [Resolve a merge conflict using `VS Code`](#resolve-a-merge-conflict-using-vs-code)
-- [Resolve a merge conflict using `GitLens`](#resolve-a-merge-conflict-using-gitlens)
-- [Resolve a merge conflict using the `VS Code Terminal`](#resolve-a-merge-conflict-using-the-vs-code-terminal)
+<!-- no toc -->
+- Method 1: [Resolve a merge conflict using `VS Code`](#resolve-a-merge-conflict-using-vs-code)
+- Method 2: [Resolve a merge conflict using `GitLens`](#resolve-a-merge-conflict-using-gitlens)
+- Method 3: [Resolve a merge conflict using the `VS Code Terminal`](#resolve-a-merge-conflict-using-the-vs-code-terminal)
 
 ### Resolve a merge conflict using `VS Code`
 
@@ -235,6 +238,7 @@ Pull changes from the `<branch-name>` branch in your fork on `GitHub`.
 
 We call that branch `origin/<branch-name>`.
 
+<!-- no toc -->
 - Method 1: [Pull changes from `origin/<branch-name>` using the `VS Code Terminal`](#pull-changes-from-originbranch-name-using-the-vs-code-terminal)
 - Method 2: [Pull changes from `origin/<branch-name>` using `GitLens`](#pull-changes-from-originbranch-name-using-gitlens)
 
@@ -296,13 +300,10 @@ We call that branch `origin/<branch-name>`.
 > - `feat:` — additions (e.g., new feature)
 > - `docs:` — documentation changes
 
-Use any of the following methods:
-
 <!-- no toc -->
-- [Commit changes](#commit-changes)
-  - [Commit using the `VS Code Terminal`](#commit-using-the-vs-code-terminal)
-  - [Commit using `Source Control`](#commit-using-source-control)
-    - [Commit staged changes](#commit-staged-changes)
+- Method 1: [Commit using the `VS Code Terminal`](#commit-using-the-vs-code-terminal)
+- Method 2: [Commit using `Source Control`](#commit-using-source-control)
+  - [Commit staged changes](#commit-staged-changes)
 
 ### Commit using the `VS Code Terminal`
 
@@ -339,12 +340,9 @@ Use any of the following methods:
 > [!NOTE]
 > There can appear a merge [conflict](./git.md#merge-conflict) when you try to undo.
 
-Undo commits using any of the following methods:
-
 <!-- no toc -->
-- [Undo commits](#undo-commits)
-  - [Undo commits using the `VS Code Terminal`](#undo-commits-using-the-vs-code-terminal)
-  - [Undo commits using `GitLens`](#undo-commits-using-gitlens)
+- Method 1: [Undo commits using the `VS Code Terminal`](#undo-commits-using-the-vs-code-terminal)
+- Method 2: [Undo commits using `GitLens`](#undo-commits-using-gitlens)
 
 ### Undo commits using the `VS Code Terminal`
 
@@ -408,8 +406,6 @@ See [Undo commit on the current branch](./gitlens.md#undo-a-commit-on-the-curren
 4. Click the `Push` icon to the right of `COMMITS`.
 
 ## Switch to a new branch
-
-Create a new branch and switch to it:
 
 <!-- no toc -->
 - Method 1: [Switch to a new branch using `GitHub`](#switch-to-a-new-branch-using-github)
