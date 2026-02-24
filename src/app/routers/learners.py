@@ -26,5 +26,5 @@ async def post_learner(
     body: LearnerCreate,
     session: AsyncSession = Depends(get_session),
 ):
-    """Create a new learner."""
+    """Create a new learner from validated request body."""
     return await create_learner(session, name=body.name, email=body.email)
