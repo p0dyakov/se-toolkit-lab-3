@@ -15,7 +15,7 @@ async def get_interactions(
     item_id: int | None = None,
     session: AsyncSession = Depends(get_session),
 ):
-    """Get all interactions, optionally filtered by item."""
+    """Get all interactions, optionally filtered by item_id."""
     interactions = await read_interactions(session)
     if item_id is not None:
         interactions = [i for i in interactions if i.item_id == item_id]
